@@ -1,0 +1,195 @@
+html{
+    background-color: #3D4D42;
+    scroll-behavior: smooth;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav,a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20vh;
+    margin-right: 50px;
+    margin-top: 1vh;
+    text-align: center;
+
+}
+
+
+.imgT{
+ 
+        margin-top: 10%;
+        margin-left: 10%;
+        width : 350px;
+        height : 350px;
+        border: none; 
+        -moz-border-radius : 75px; 
+        -webkit-border-radius : 75px; 
+        border-radius : 75px;
+     }
+header{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    top: 0px;
+	bottom: 0px;
+    left: 0px;
+}
+
+ul{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+}
+.par{
+    text-align: center;
+    margin-left: 27%;
+    width: 45%;
+}
+
+.colo{
+    float: right;
+    margin-right: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+.tr{
+    text-align: center;
+}
+
+
+
+
+
+.soul{position: relative;
+    color: inherit;
+    text-decoration: none;
+    background:linear-gradient(to top,rgb(255, 255, 255)0%,rgb(255, 255, 255)4px, transparent 5px)no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    width: auto;
+
+}
+
+
+
+
+.soul:hover{
+    background-size: 100% 100%;
+    
+}
+
+.conta{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.mail{
+    margin-left: 0px;
+    text-decoration: underline;
+}
+.me{
+    margin-right: 90%;
+}
+.l{
+    width: 150px;
+    padding: 0%;
+    margin: 0%;
+}
+.l2{
+    width: 85px;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.logo{
+    margin-top: 20%;
+    display: flex;
+    text-align: center;
+
+    
+ }
+ footer{
+    margin-top: 14%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+ @media (max-width: 700px){
+    header{
+		display: block;
+        
+	}
+
+	label{
+		display: block;
+		cursor: pointer;
+		float: right;
+
+	}
+	nav{
+		display: none;
+        width: 100%;
+        height: 100%;
+	}
+
+    
+	#switch:checked + nav{
+		display: block;
+	}
+
+
+
+	ul{
+		width: 10%;
+		display:block;
+
+        
+		
+	}
+
+	.image{
+		border-top: none;
+
+	}
+
+
+    .logo{
+        width: 90px;
+    }
+    .soul{
+		width: 100%;
+		height: 100%;
+        margin-left: 400%;
+		padding-top: 10px;
+		margin-top: 5px;
+		background-color: #ffffff;
+		text-align: center;
+        color: black;
+        background:linear-gradient(to top,rgb(255, 255, 255)0%,rgb(255, 255, 255)4px, transparent 5px)no-repeat;
+        color: inherit;
+        text-decoration: none;
+        background-size: 0 100%;
+        transition: background-size .3s;
+        list-style: none;
+
+        
+
+	}
+
+    .menu{
+        background-color: rgba(15, 14, 14, 0.866);
+        width: 100%;
+    }
+}
